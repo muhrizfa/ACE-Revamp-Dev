@@ -3507,6 +3507,25 @@ footer .copyright {
   z-index: 2;
 }
 
+/* RIZKY CODE */
+
+/* Global Code */
+.card {
+  box-shadow: 0px 2px 6px rgba(204, 204, 204, 0.4);
+}
+
+.content-heading{
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+.line-seperator{
+  width: 100%;
+  height: 1px;
+  background: #A0A0A0;
+}
+
 /* introduction page */
 
 .introduction-page>.container>h1 {
@@ -3705,64 +3724,51 @@ footer .copyright {
   margin: 0 0 40px 0;
 }
 
-.people-page .columns .column .people-page-list .people-page-listt h3 {
-  font-size: 24px;
-  line-height: 36px;
-  letter-spacing: -0.02em;
-  color: #000000;
-  font-weight: 700;
-  display: inline-block;
+/* People Page Local Code */
+
+#arrow-collapse {
+  cursor: pointer;
+}
+
+.people-page .card{
   margin-bottom: 24px;
 }
 
-.people-page .columns .column .people-page-list .people-page-listt .people-gov-council img {
-  margin-bottom: 24px;
-}
-
-.people-page .columns .column .people-page-list .people-page-listt .people-nation {
-  margin-bottom: 32px;
-}
-
-.people-page .columns .column .people-page-list .people-page-listt .people-nation .people-brunei {
-  width: 100%;
-  border: 1px solid #CCCCCC;
-  box-shadow: 0px 2px 6px rgba(204, 204, 204, 0.4);
-  border-radius: 4px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-
-.people-page .columns .column .people-page-list .people-page-listt .people-nation .header-nation img{
-  margin-bottom: 7px;
-}
-
-.people-page .columns .column .people-page-list .people-page-listt .people-nation .people-brunei .header-nation {
-  background: transparent url(../img/ico-arrow-down.svg) no-repeat right 20px center;
-  padding: 20px 0 15px 27px;
-  border-bottom: 1px solid #CCCCCC;
-}
-
-.people-page .columns .column .people-page-list .people-page-listt .people-nation .people-brunei .header-nation h5 {
-  font-size: 20px;
+.people-page .card-title{
   font-weight: bold;
-  color: #000000;
-  display: inline-block;
-  padding: 0 0 0 15px;
 }
 
-.people-page .columns .column .people-page-list .people-page-listt .people-nation .people-brunei .footer-nation{
-  padding: 12px 0 17px 27px;
+.people-page .card-title, .people-page .card-text{
+  color: #333333;
 }
 
-.people-page .columns .column .people-page-list .people-page-listt .people-nation .people-brunei .footer-nation a {
+.people-gov-council .card-title {
+  font-size: 20px;
   color: #044B89;
-  font-size: 20px;
 }
 
-.people-page .columns .column .people-page-list .people-page-listt .people-gov-council h5 {
-  font-size: 20px;
+.people-gov-council .card-additional-title {
   font-weight: bold;
-  color: #000000;
+  font-size: 16px;
+}
+
+.people-gov-council .card-text {
+  margin-top: 20px;
+}
+
+.people-gov-council .card-footer a {
+  font-weight: bold;
+  color: #044B89;
+}
+
+.people-management-staff .card {
+  max-width: 444px;
+}
+
+.people-management-staff .card img{
+  border-radius: 4px;
+}
+
+.people-management-staff .card-text{
+  line-height: 195%;
 }
