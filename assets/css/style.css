@@ -3597,6 +3597,54 @@ footer .copyright {
   padding-left: 20px;
 }
 
+.ico-home-outline {
+  display: inline-block;
+  background: url(../img/ico-home-outline.svg) no-repeat center center;
+  width: 16px;
+  height: 16px;
+  background-size: 16px;
+}
+
+.ico-telephone-outline {
+  display: inline-block;
+  background: url(../img/ico-telephone-outline.svg) no-repeat center center;
+  width: 16px;
+  height: 16px;
+  background-size: 16px;
+}
+
+.ico-phone-outline {
+  display: inline-block;
+  background: url(../img/ico-phone-outline.svg) no-repeat center center;
+  width: 16px;
+  height: 16px;
+  background-size: 16px;
+}
+
+.ico-message-outline {
+  display: inline-block;
+  background: url(../img/ico-message-outline.svg) no-repeat center center;
+  width: 16px;
+  height: 16px;
+  background-size: 16px;
+}
+
+.ico-watch-outline {
+  display: inline-block;
+  background: url(../img/ico-watch-outline.svg) no-repeat center center;
+  width: 16px;
+  height: 16px;
+  background-size: 16px;
+}
+
+.ico-dropdown-outline {
+  display: inline-block;
+  background: url(../img/ico-dropdown-outline.svg) no-repeat center center;
+  width: 16px;
+  height: 16px;
+  background-size: 16px;
+}
+
 /* introduction page */
 
 .introduction-page>.container>h1 {
@@ -4123,7 +4171,34 @@ footer .copyright {
   font-weight: normal;
 }
 
-.vacancy-page-detail .other-vacancy a{
+.vacancy-page-detail .other-vacancy a {
   display: block;
   margin-bottom: 32px;
+}
+
+/* contact page */
+
+.contact-page .form-group input, .contact-page .form-group select, .contact-page .form-group textarea {
+  box-shadow: 0px 2px 6px rgba(204, 204, 204, 0.4);
+}
+
+.contact-page .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-page .form-group input, .contact-page .form-group select  {
+  height: 56px;
+}
+
+.contact-page label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact-page .sub-menu p {
+  line-height: 195%;
+}
+
+.contact-page .sub-menu .col-md-1{
+  margin-top: 0.5rem !important;
 }
