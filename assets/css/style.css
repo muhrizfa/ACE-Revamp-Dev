@@ -3510,20 +3510,86 @@ footer .copyright {
 /* RIZKY CODE */
 
 /* Global Code */
+
 .card {
   box-shadow: 0px 2px 6px rgba(204, 204, 204, 0.4);
 }
 
-.content-heading{
+.content-heading {
   color: #000000;
   font-weight: bold;
   margin-bottom: 14px;
 }
 
-.line-seperator{
+.line-seperator {
   width: 100%;
   height: 1px;
   background: #A0A0A0;
+}
+
+.paginations {
+  margin: 24px 0 0 0;
+  text-align: center;
+}
+
+.btn-get-pdf {
+  background: #044B89;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  width: 100%;
+  padding: 10px;
+}
+
+.btn-get-pdf:hover {
+  background: white;
+  color: #044B89;
+  border: 1px solid #044B89;
+}
+
+.card-full .card {
+  height: 598px;
+  color: #333333;
+}
+
+.card-full .card-body {
+  overflow-y: auto;
+  padding-bottom: 0;
+}
+
+.card-full h4 {
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+}
+
+.card-full h5 {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.card-full .qualification-requirements h5 {
+  margin-bottom: 24px;
+}
+
+.card-full .qualification-requirements ul>li {
+  line-height: 195%;
+  margin-bottom: 24px;
+}
+
+.card-full .card-footer {
+  font-weight: bold;
+}
+
+.card-full .card-footer .date {
+  color: #E23E34;
+  display: block;
+}
+
+.card-full .card-title {
+  color: #044B89;
 }
 
 /* introduction page */
@@ -3730,15 +3796,15 @@ footer .copyright {
   cursor: pointer;
 }
 
-.people-page .card{
+.people-page .card {
   margin-bottom: 24px;
 }
 
-.people-page .card-title{
+.people-page .card-title {
   font-weight: bold;
 }
 
-.people-page .card-title, .people-page .card-text{
+.people-page .card-title, .people-page .card-text {
   color: #333333;
 }
 
@@ -3761,10 +3827,143 @@ footer .copyright {
   color: #044B89;
 }
 
-.people-management-staff .card img{
+.people-management-staff .card img {
   border-radius: 4px;
 }
 
-.people-management-staff .card-text{
+.people-management-staff .card-text {
   line-height: 195%;
+}
+
+/* Binding and Tender */
+
+.bidding-tender-desc p {
+  width: 808px;
+}
+
+.bidding-tender-desc a {
+  font-weight: bold;
+  color: #044B89;
+}
+
+.bidding-tender-page .search-area {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.bidding-tender-page .search-area .search-input {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: 0 0 20px 0;
+}
+
+.bidding-tender-page .search-area .search-input form {
+  margin: 0;
+}
+
+.bidding-tender-page .search-area .search-input input {
+  width: 100%;
+  border: 1px solid #CCCCCC;
+  box-shadow: 0px 2px 6px rgba(204, 204, 204, 0.4);
+  border-radius: 4px;
+  height: 56px;
+  padding: 0 70px 0 15px;
+  font-size: 14px;
+  color: #808080;
+}
+
+.bidding-tender-page .search-area .search-input button {
+  position: absolute;
+  right: 24px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+.bidding-tender-page .search-area .status-input {
+  width: 49.79%;
+  display: inline-block;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.bidding-tender-page .search-area .status-input form {
+  margin: 0;
+}
+
+.bidding-tender-page .search-area .status-input select {
+  background: transparent url(../img/ico-arrow-down.svg) no-repeat right 20px center;
+  width: 100%;
+  border: 1px solid #CCCCCC;
+  box-shadow: 0px 2px 6px rgba(204, 204, 204, 0.4);
+  border-radius: 4px;
+  height: 56px;
+  padding: 0 45px 0 50px;
+  font-size: 14px;
+  color: #808080;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.bidding-tender-page .search-area .status-input span {
+  position: absolute;
+  left: 36px;
+  top: 22px;
+}
+
+.bidding-tender-page .search-area .newest-input {
+  width: 49.79%;
+  display: inline-block;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.bidding-tender-page .search-area .newest-input form {
+  margin: 0;
+}
+
+.bidding-tender-page .search-area .newest-input select {
+  background: transparent url(../img/ico-arrow-down.svg) no-repeat right 20px center;
+  width: 100%;
+  border: 1px solid #CCCCCC;
+  box-shadow: 0px 2px 6px rgba(204, 204, 204, 0.4);
+  border-radius: 4px;
+  height: 56px;
+  padding: 0 45px 0 50px;
+  font-size: 14px;
+  color: #808080;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.bidding-tender-page .search-area .newest-input span {
+  position: absolute;
+  left: 36px;
+  top: 20px;
+}
+/* Details Bidding and Tender */
+
+.bidding-tender-page.details .list-group {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.bidding-tender-page.details .list-group-item {
+  border: 0;
+}
+
+.bidding-tender-page.details a {
+  color: #044B89;
+  font-weight: bold;
+}
+
+.bidding-tender-page.details .card-title h4 {
+  color: #333333;
 }
