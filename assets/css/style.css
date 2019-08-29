@@ -3532,7 +3532,7 @@ footer .copyright {
   text-align: center;
 }
 
-.btn-get-pdf {
+.btn-blue-dark {
   background: #044B89;
   color: white;
   font-weight: bold;
@@ -3541,7 +3541,7 @@ footer .copyright {
   padding: 10px;
 }
 
-.btn-get-pdf:hover {
+.btn-blue-dark:hover {
   background: white;
   color: #044B89;
   border: 1px solid #044B89;
@@ -3590,6 +3590,10 @@ footer .copyright {
 
 .card-full .card-title {
   color: #044B89;
+}
+
+.qualification-requirements ul {
+  padding-left: 20px;
 }
 
 /* introduction page */
@@ -3949,6 +3953,7 @@ footer .copyright {
   left: 36px;
   top: 20px;
 }
+
 /* Details Bidding and Tender */
 
 .bidding-tender-page.details .list-group {
@@ -3966,4 +3971,139 @@ footer .copyright {
 
 .bidding-tender-page.details .card-title h4 {
   color: #333333;
+}
+
+/* vacancy page */
+
+.vacancy-page-desc p {
+  width: 808px;
+}
+
+.vacancy-page-desc a {
+  font-weight: bold;
+  color: #044B89;
+}
+
+.vacancy-page .search-area {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.vacancy-page .search-area .search-input {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: 0 0 20px 0;
+}
+
+.vacancy-page .search-area .search-input form {
+  margin: 0;
+}
+
+.vacancy-page .search-area .search-input input {
+  width: 100%;
+  border: 1px solid #CCCCCC;
+  box-shadow: 0px 2px 6px rgba(204, 204, 204, 0.4);
+  border-radius: 4px;
+  height: 56px;
+  padding: 0 70px 0 15px;
+  font-size: 14px;
+  color: #808080;
+}
+
+.vacancy-page .search-area .search-input button {
+  position: absolute;
+  right: 24px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+.vacancy-page .search-area .status-input {
+  width: 49.7%;
+  display: inline-block;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.vacancy-page .search-area .status-input form {
+  margin: 0;
+}
+
+.vacancy-page .search-area .status-input select {
+  background: transparent url(../img/ico-arrow-down.svg) no-repeat right 20px center;
+  width: 100%;
+  border: 1px solid #CCCCCC;
+  box-shadow: 0px 2px 6px rgba(204, 204, 204, 0.4);
+  border-radius: 4px;
+  height: 56px;
+  padding: 0 45px 0 50px;
+  font-size: 14px;
+  color: #808080;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.vacancy-page .search-area .status-input span {
+  position: absolute;
+  left: 36px;
+  top: 22px;
+}
+
+.vacancy-page .search-area .newest-input {
+  width: 49.7%;
+  display: inline-block;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.vacancy-page .search-area .newest-input form {
+  margin: 0;
+}
+
+.vacancy-page .search-area .newest-input select {
+  background: transparent url(../img/ico-arrow-down.svg) no-repeat right 20px center;
+  width: 100%;
+  border: 1px solid #CCCCCC;
+  box-shadow: 0px 2px 6px rgba(204, 204, 204, 0.4);
+  border-radius: 4px;
+  height: 56px;
+  padding: 0 45px 0 50px;
+  font-size: 14px;
+  color: #808080;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.vacancy-page .search-area .newest-input span {
+  position: absolute;
+  left: 36px;
+  top: 20px;
+}
+
+.vacancy-page .vacancy-list .qualification-requirements {
+  width: 576px;
+}
+
+.vacancy-page .vacancy-list.card-full .card-body {
+  overflow-y: unset;
+  padding-bottom: 0;
+}
+
+.vacancy-page .sub-menu .card-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.vacancy-page .sub-menu .card-text {
+  font-size: 16px;
+  line-height: 195%;
+  margin-bottom: 32px;
 }
