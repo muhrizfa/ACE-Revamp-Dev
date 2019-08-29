@@ -3580,6 +3580,7 @@ footer .copyright {
 }
 
 .card-full .card-footer {
+  color: #333333;
   font-weight: bold;
 }
 
@@ -3588,7 +3589,7 @@ footer .copyright {
   display: block;
 }
 
-.card-full .card-title {
+.card-full .card-header .card-title {
   color: #044B89;
 }
 
@@ -4088,15 +4089,6 @@ footer .copyright {
   top: 20px;
 }
 
-.vacancy-page .vacancy-list .qualification-requirements {
-  width: 576px;
-}
-
-.vacancy-page .vacancy-list.card-full .card-body {
-  overflow-y: unset;
-  padding-bottom: 0;
-}
-
 .vacancy-page .sub-menu .card-title {
   font-size: 16px;
   font-weight: bold;
@@ -4105,5 +4097,33 @@ footer .copyright {
 .vacancy-page .sub-menu .card-text {
   font-size: 16px;
   line-height: 195%;
+  margin-bottom: 32px;
+}
+
+/* Vacancy Page Detail */
+
+.vacancy-page-detail .card-header .card-title {
+  color: #044B89;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.vacancy-page-detail .card-full .card-body {
+  overflow-y: unset;
+  padding-bottom: 20px;
+}
+
+.vacancy-page-detail .card-full .card {
+  height: 100%;
+  color: #333333;
+}
+
+.vacancy-page-detail .qualification-requirements h5 {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.vacancy-page-detail .other-vacancy a{
+  display: block;
   margin-bottom: 32px;
 }
