@@ -4436,6 +4436,20 @@ footer .copyright {
   font-weight: 700;
 }
 
+/* international page details */
+.international-organization-page.details {
+  overflow-x: hidden;
+}
+
+.international-organization-page.details .card{
+  border: 0;
+  box-shadow: 0px 0px 0px rgba(204, 204, 204, 0);
+}
+
+.international-organization-page.details .card-body {
+  padding-top: 0;
+}
+
 /* apaec page */
 
 .apaec-desc {
