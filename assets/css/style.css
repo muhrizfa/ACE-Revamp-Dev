@@ -2434,7 +2434,7 @@
   background: #044B89;
   border: none;
   border-radius: 4px;
-  padding: 4px 15px;
+  padding: 9px 15px;
   position: absolute;
   right: 0;
   top: 0;
@@ -4647,7 +4647,7 @@ footer .copyright {
 }
 
 .programmee-area .columns .column .programmee-slider .programmee-tabs .tab-content .tab-pane .upcoming-tab {
-  padding: 30px 24px;
+  padding: 48px;
 }
 
 .programmee-area .columns .column .programmee-slider .programmee-tabs .tab-content .tab-pane .upcoming-tab .upcoming-tab-month {
