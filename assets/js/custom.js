@@ -85,3 +85,7 @@ $(".hamburger-menu").on("click", function() {
     .find(".main-nav")
     .slideToggle();
 });
+
+$("#open-modal").click(function(e) {
+  $('#myModal').modal('toggle');
+});

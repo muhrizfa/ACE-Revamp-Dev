@@ -3532,7 +3532,7 @@ footer .copyright {
   text-align: center;
 }
 
-.page-wrapper .breadcrumbs strong{
+.page-wrapper .breadcrumbs strong {
   font-weight: normal;
 }
 
@@ -3895,7 +3895,37 @@ footer .copyright {
 }
 
 .people-management-staff .card-text {
-  line-height: 195%;
+  line-height: 185%;
+  font-size: 14px;
+}
+
+.people-management-staff .content-heading {
+  margin-top: 20px;
+}
+
+.modal-dialog {
+  max-width: 678px;
+  margin: 1.75rem auto;
+}
+
+.modal .modal-content {
+  width: 678px;
+  margin: auto;
+}
+
+.modal .modal-body {
+  padding: 32px;
+}
+
+.modal .modal-body img {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.modal .modal-body h5 {
+  font-size: 24px;
+  color: #333333;
+  font-weight: bold;
 }
 
 /* Binding and Tender */
