@@ -3967,7 +3967,7 @@ footer .copyright {
 .bidding-tender-page .search-area .status-input span {
   position: absolute;
   left: 36px;
-  top: 22px;
+  top: 20px;
 }
 
 .bidding-tender-page .search-area .newest-input {
@@ -4101,7 +4101,7 @@ footer .copyright {
 .vacancy-page .search-area .status-input span {
   position: absolute;
   left: 36px;
-  top: 22px;
+  top: 20px;
 }
 
 .vacancy-page .search-area .newest-input {
@@ -4186,8 +4186,12 @@ footer .copyright {
   margin-bottom: 20px;
 }
 
-.contact-page .form-group input, .contact-page .form-group select  {
+.contact-page .form-group input, .contact-page .form-group select {
   height: 56px;
+}
+
+.contact-page .btn-blue-dark {
+  width: 236px;
 }
 
 .contact-page label {
@@ -4199,6 +4203,235 @@ footer .copyright {
   line-height: 195%;
 }
 
-.contact-page .sub-menu .col-md-1{
+.contact-page .sub-menu .col-md-1 {
   margin-top: 0.5rem !important;
+}
+
+/* internation organization */
+
+.international-organization-page>.container>h1 {
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  color: #333;
+  font-weight: 700;
+  margin: 0 0 24px 0;
+}
+
+.international-organization-page>.container>p {
+  font-size: 16px;
+  line-height: 31px;
+  color: #333333;
+  font-weight: 700;
+}
+
+.international-organization-page .columns .column .pub-sec {
+  border: 1px solid #CCCCCC;
+  box-shadow: 0px 2px 6px rgba(204, 204, 204, 0.4);
+  border-radius: 4px;
+  width: 288px;
+  display: inline-block;
+  padding: 13px 0;
+  vertical-align: top;
+}
+
+.international-organization-page .columns .column .pub-sec strong {
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+  padding: 11px 24px;
+  width: 100%;
+  display: inline-block;
+}
+
+.international-organization-page .columns .column .pub-sec ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.international-organization-page .columns .column .pub-sec ul li {
+  width: 100%;
+  display: inline-block;
+}
+
+.international-organization-page .columns .column .pub-sec ul li a {
+  width: 100%;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 27px;
+  color: #474747;
+  padding: 11px 24px;
+  font-weight: 700;
+}
+
+.international-organization-page .columns .column .pub-sec ul li a:hover {
+  background: rgba(4, 75, 137, 0.08);
+  color: #044B89;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.international-organization-page .search-area {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.international-organization-page .search-area .search-input {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: 0 0 20px 0;
+}
+
+.international-organization-page .search-area .search-input form {
+  margin: 0;
+}
+
+.international-organization-page .search-area .search-input input {
+  width: 100%;
+  border: 1px solid #CCCCCC;
+  box-shadow: 0px 2px 6px rgba(204, 204, 204, 0.4);
+  border-radius: 4px;
+  height: 56px;
+  padding: 0 70px 0 15px;
+  font-size: 14px;
+  color: #808080;
+}
+
+.international-organization-page .search-area .search-input button {
+  position: absolute;
+  right: 24px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+
+.international-organization-page .search-area .status-input {
+  width: 49.6%;
+  display: inline-block;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.international-organization-page .search-area .status-input form {
+  margin: 0;
+}
+
+.international-organization-page .search-area .status-input select {
+  background: transparent url(../img/ico-arrow-down.svg) no-repeat right 20px center;
+  width: 100%;
+  border: 1px solid #CCCCCC;
+  box-shadow: 0px 2px 6px rgba(204, 204, 204, 0.4);
+  border-radius: 4px;
+  height: 56px;
+  padding: 0 45px 0 50px;
+  font-size: 14px;
+  color: #808080;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.international-organization-page .search-area .status-input span {
+  position: absolute;
+  left: 36px;
+  top: 20px;
+}
+
+.international-organization-page .search-area .newest-input {
+  width: 49.6%;
+  display: inline-block;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.international-organization-page .search-area .newest-input form {
+  margin: 0;
+}
+
+.international-organization-page .search-area .newest-input select {
+  background: transparent url(../img/ico-arrow-down.svg) no-repeat right 20px center;
+  width: 100%;
+  border: 1px solid #CCCCCC;
+  box-shadow: 0px 2px 6px rgba(204, 204, 204, 0.4);
+  border-radius: 4px;
+  height: 56px;
+  padding: 0 45px 0 50px;
+  font-size: 14px;
+  color: #808080;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.international-organization-page .search-area .newest-input span {
+  position: absolute;
+  left: 36px;
+  top: 20px;
+}
+
+.international-organization-page .columns .column .international-organization-page-list {
+  width: calc(100% - 293px);
+  display: inline-block;
+  padding: 0 0 0 24px;
+}
+
+.international-organization-page .columns .column .international-organization-page-list .international-organization-page-listt {
+  margin: 0 0 40px 0;
+}
+
+.international-organization-page .card-full .card {
+  height: 100%;
+  color: #333333;
+}
+
+.international-organization-page .card-full .card-header {
+  border-bottom: 0;
+}
+
+.international-organization-page .card-full .card-header .col-md-6 img{
+  width: 95%;
+}
+
+.international-organization-page .card-full .card-footer {
+  border-top: 0;
+}
+
+.international-organization-page .card-full .card-body .organization h5 {
+  color: #044B89;
+  margin-bottom: 16px;
+}
+
+.international-organization-page .card-full .card-body .organization small {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.international-organization-page .card-full .card-body .organization p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.international-organization-page .card-full .card-footer .years {
+  margin-left: 30px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.international-organization-page .card-full .card-footer .ico-watch-outline {
+  position: absolute;
+  top: 3px;
+}
+
+.international-organization-page .active a {
+  background: rgba(4, 75, 137, 0.08);
+  color: #044B89 !important;
+  text-decoration: none;
+  font-weight: 700;
 }
