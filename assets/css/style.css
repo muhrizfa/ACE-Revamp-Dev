@@ -4395,7 +4395,7 @@ footer .copyright {
   border-bottom: 0;
 }
 
-.international-organization-page .card-full .card-header .col-md-6 img{
+.international-organization-page .card-full .card-header .col-md-6 img {
   width: 95%;
 }
 
@@ -4434,4 +4434,322 @@ footer .copyright {
   color: #044B89 !important;
   text-decoration: none;
   font-weight: 700;
+}
+
+/* apaec page */
+
+.apaec-desc {
+  position: relative;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.apaec-desc h2 {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  color: #333333;
+  margin: 0 0 20px;
+  font-weight: 700;
+}
+
+.programmee-area {
+  position: relative;
+}
+
+.programmee-area h1 {
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  color: #333333;
+  font-weight: 700;
+}
+
+.programmee-area .columns .column {
+  width: 100%;
+  float: left;
+  padding: 0;
+}
+
+.programmee-area .columns .column .pub-slider>h2 {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  color: #333333;
+  margin: 0 0 20px;
+  font-weight: 700;
+}
+
+.programmee-area .columns .column .pub-slider ul li {
+  padding: 12px 12px;
+}
+
+.programmee-area .columns .column .pub-slider ul li a:hover {
+  text-decoration: none;
+}
+
+.programmee-area .columns .column .pub-slider ul li .pub-item {
+  padding: 0;
+  border: 1px solid #CCCCCC;
+  box-shadow: 0px 2px 6px rgba(204, 204, 204, 0.4);
+  border-radius: 4px;
+}
+
+.programmee-area .columns .column .pub-slider ul li .pub-item .pub-img {
+  margin-bottom: 20px;
+  height: 275px;
+}
+
+.programmee-area .columns .column .pub-slider ul li .pub-item .pub-img img {
+  width: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.programmee-area .columns .column .pub-slider ul li .pub-item .pub-kat-page {
+  font-size: 14px;
+  line-height: 27px;
+  color: #044B89;
+  margin-bottom: 0;
+  padding: 0 24px;
+}
+
+.programmee-area .columns .column .pub-slider ul li .pub-item .pub-kat {
+  font-size: 12px;
+  line-height: 23px;
+  color: #044B89;
+  margin-bottom: 10px;
+  padding: 0 24px;
+}
+
+.programmee-area .columns .column .pub-slider ul li .pub-item .pub-title {
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+  height: 54px;
+  overflow: hidden;
+  font-weight: 700;
+  padding: 0 24px;
+}
+
+.programmee-area .columns .column .pub-slider ul li .pub-item .pub-date {
+  font-size: 14px;
+  line-height: 27px;
+  color: #808080;
+  margin-bottom: 20px;
+  padding: 0 24px;
+}
+
+.programmee-area .columns .column .pub-slider ul li .pub-item .pub-p {
+  font-size: 14px;
+  line-height: 27px;
+  color: #474747;
+  margin-bottom: 24px;
+  padding: 0 24px;
+}
+
+.programmee-area .columns .column .pub-slider ul.row {
+  margin-left: -12px;
+  margin-right: -12px;
+  margin-top: -12px;
+  margin-bottom: -12px;
+}
+
+.programmee-area .columns .column .programmee-slider {
+  margin: 24px 0 0 0;
+}
+
+.programmee-area .columns .column .programmee-slider>h2 {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  color: #333333;
+  margin: 0 0 20px;
+  font-weight: 700;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .nav-tabs {
+  border-bottom: none;
+  padding: 0 30px;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .nav-tabs .nav-item {
+  margin-bottom: -2px;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .nav-tabs .nav-item a {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  font-weight: 700;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .nav-tabs .nav-item a.active {
+  color: #044B89;
+  border: 1px solid #CCCCCC;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom: none;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .nav-tabs .nav-item a.active:hover, .programmee-area .columns .column .programmee-slider .programmee-tabs .nav-tabs .nav-item a.active:focus {
+  color: #044B89;
+  border: 1px solid #CCCCCC;
+  border-bottom: none;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .nav-tabs .nav-item a:hover, .programmee-area .columns .column .programmee-slider .programmee-tabs .nav-tabs .nav-item a:focus {
+  color: #044B89;
+  border: 1px solid transparent;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .tab-content {
+  border: 1px solid #CCCCCC;
+  box-shadow: 0px 2px 6px rgba(204, 204, 204, 0.4);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .tab-content .tab-pane .upcoming-tab {
+  padding: 30px 24px;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .tab-content .tab-pane .upcoming-tab .upcoming-tab-month {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  padding: 0 0 24px 0;
+  margin: 0 0 24px 0;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .tab-content .tab-pane .upcoming-tab .upcoming-tab-month>h5 {
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .tab-content .tab-pane .upcoming-tab .upcoming-tab-month .upcoming-tab-list {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  margin: 0 0 24px 0;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .tab-content .tab-pane .upcoming-tab .upcoming-tab-month .upcoming-tab-list:last-child {
+  margin: 0;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .tab-content .tab-pane .upcoming-tab .upcoming-tab-month .upcoming-tab-list .upcoming-tab-list-date {
+  display: inline-block;
+  width: 25%;
+  font-size: 16px;
+  line-height: 31px;
+  color: #333333;
+  vertical-align: top;
+  padding: 0 24px 0 0;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .tab-content .tab-pane .upcoming-tab .upcoming-tab-month .upcoming-tab-list .upcoming-tab-list-title {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  padding: 0 24px 0 0;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .tab-content .tab-pane .upcoming-tab .upcoming-tab-month .upcoming-tab-list .upcoming-tab-list-title>span {
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;
+  line-height: 31px;
+  color: #333333;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .tab-content .tab-pane .upcoming-tab .upcoming-tab-month .upcoming-tab-list .upcoming-tab-list-title>div {
+  display: inline-block;
+  width: 100%;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .tab-content .tab-pane .upcoming-tab .upcoming-tab-month .upcoming-tab-list .upcoming-tab-list-title>div a {
+  font-size: 16px;
+  line-height: 24px;
+  color: #044B89;
+  font-weight: 700;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .tab-content .tab-pane .upcoming-tab .upcoming-tab-month .upcoming-tab-list .upcoming-tab-list-title>div a:hover {
+  text-decoration: none;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .tab-content .tab-pane .upcoming-tab .upcoming-tab-month .upcoming-tab-list .upcoming-tab-list-loc {
+  vertical-align: top;
+  display: inline-block;
+  width: 24%;
+  font-size: 16px;
+  line-height: 31px;
+  color: #333333;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .tab-content .tab-pane .upcoming-tab .upcoming-tab-month:after {
+  content: "";
+  background: #CCCCCC;
+  width: calc(100% + 48px);
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: -24px;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .tab-content .tab-pane .upcoming-tab .upcoming-tab-month:last-child {
+  padding: 0;
+  margin: 0;
+}
+
+.programmee-area .columns .column .programmee-slider .programmee-tabs .tab-content .tab-pane .upcoming-tab .upcoming-tab-month:last-child:after {
+  display: none;
+}
+
+.programmee-area .tab-content .header-image {
+  float: left
+}
+
+.programmee-area .tab-content .header-tab-content .header-title {
+  float: left;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.programmee-area .tab-content .header-tab-content .header-title h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #044B89;
+  margin-bottom: 16px;
+}
+
+.programmee-area .tab-content .header-tab-content .header-title p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.programmee-area .tab-content .body-tab-content h5 {
+  font-weight: bold;
+}
+
+.programmee-area .tab-content .body-tab-content p {
+  margin-bottom: 5px;
+}
+
+.programmee-area .tab-content .body-tab-content ol {
+  padding-left: 18px;
 }
