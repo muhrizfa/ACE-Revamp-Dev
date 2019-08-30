@@ -3532,6 +3532,10 @@ footer .copyright {
   text-align: center;
 }
 
+.page-wrapper .breadcrumbs strong{
+  font-weight: normal;
+}
+
 .btn-blue-dark {
   background: #044B89;
   color: white;
