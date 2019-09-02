@@ -86,6 +86,25 @@ $(".hamburger-menu").on("click", function() {
     .slideToggle();
 });
 
-$("#open-modal").click(function(e) {
-  $('#myModal').modal('toggle');
+// Rizky JQuery
+$(document).ready(function() {
+  $("#open-modal").click(function(e) {
+    $("#myModal").modal("toggle");
+  });
+
+  $(window).on("resize", function(e) {
+    checkScreenSize();
+  });
+
+  checkScreenSize();
+
+  function checkScreenSize() {
+    const newWindowWidth = $(window).width();
+    if (newWindowWidth < 481) {
+      $(".pub-sec").addClass("d-none");
+      $(".pub-sec-mobile").removeClass("d-none");
+    } else {
+      $(".pub-sec-mobile").addClass("d-none");
+    }
+  }
 });
