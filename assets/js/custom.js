@@ -92,6 +92,8 @@ $(document).ready(function() {
     $("#myModal").modal("toggle");
   });
 
+  
+
   $(window).on("resize", function(e) {
     checkScreenSize();
   });
@@ -103,6 +105,9 @@ $(document).ready(function() {
     if (newWindowWidth < 481) {
       $(".pub-sec").addClass("d-none");
       $(".pub-sec-mobile").removeClass("d-none");
+
+      $('.paginations li:nth-child(4)').replaceWith('<li><a href="#">...</a></li>');
+      $('.paginations li:nth-child(5)').remove();
     } else {
       $(".pub-sec-mobile").addClass("d-none");
     }

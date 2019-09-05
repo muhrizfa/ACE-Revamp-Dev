@@ -3689,6 +3689,23 @@ footer .copyright {
   padding-left: 20px;
 }
 
+.w-42 {
+  width: 42% !important;
+}
+
+.w-48 {
+  width: 48% !important;
+}
+
+.w-52 {
+  width: 52% !important;
+}
+
+.w-58 {
+  width: 58% !important;
+}
+
+
 .ico-home-outline {
   display: inline-block;
   background: url(../img/ico-home-outline.svg) no-repeat center center;
@@ -3868,11 +3885,6 @@ footer .copyright {
 }
 
 /* Binding and Tender */
-
-.bidding-tender-desc p {
-  width: 808px;
-}
-
 .bidding-tender-desc a {
   font-weight: bold;
   color: #044B89;
@@ -3917,7 +3929,7 @@ footer .copyright {
 }
 
 .bidding-tender-page .search-area .status-input {
-  width: 49.79%;
+  width: 100%;
   display: inline-block;
   position: relative;
   padding-left: 12px;
@@ -3950,7 +3962,7 @@ footer .copyright {
 }
 
 .bidding-tender-page .search-area .newest-input {
-  width: 49.79%;
+  width: 100%;
   display: inline-block;
   position: relative;
   padding-left: 12px;
@@ -4777,7 +4789,7 @@ footer .copyright {
     padding-bottom: 0;
     height: 100%;
   }
-  .card-full .card-header .col-md{
+  .card-full .card-header .text-right{
     text-align: left!important;
   }
 }
