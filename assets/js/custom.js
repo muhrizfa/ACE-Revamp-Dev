@@ -92,8 +92,6 @@ $(document).ready(function() {
     $("#myModal").modal("toggle");
   });
 
-  
-
   $(window).on("resize", function(e) {
     checkScreenSize();
   });
@@ -105,11 +103,24 @@ $(document).ready(function() {
     if (newWindowWidth < 481) {
       $(".pub-sec").addClass("d-none");
       $(".pub-sec-mobile").removeClass("d-none");
-      $(".container h1").remove();
+      $(".container h1").addClass("d-none");
 
-      $('.paginations li:nth-child(4)').replaceWith('<li><a href="#">...</a></li>');
-      $('.paginations li:nth-child(5)').remove();
+      $(".paginations li:nth-child(4)").replaceWith(
+        '<li><a href="#">...</a></li>'
+      );
+      $(".paginations li:nth-child(5)").addClass("d-none");
     } else {
+      $(".pub-sec").removeClass("d-none");
+      $(".pub-sec-mobile").addClass("d-none");
+      $(".container h1").removeClass("d-none");
+      $(".paginations li:nth-child(5)").removeClass("d-none");
+    }
+
+    if (newWindowWidth < 768) {
+      $(".nav.nav-tabs").addClass("d-none");
+      $(".pub-sec-mobile").removeClass("d-none");
+    } else {
+      $(".nav.nav-tabs").removeClass("d-none");
       $(".pub-sec-mobile").addClass("d-none");
     }
   }

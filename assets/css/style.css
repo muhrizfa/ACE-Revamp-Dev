@@ -4446,6 +4446,11 @@ footer .copyright {
   font-weight: 700;
 }
 
+.programmee-area .pub-sec-mobile .cat-input select {
+  padding: 0 45px 0 20px;
+  font-size: 16px;
+}
+
 .programmee-area .columns .column {
   width: 100%;
   float: left;
@@ -4702,13 +4707,13 @@ footer .copyright {
 }
 
 .programmee-area .tab-content .header-image {
+  margin-right: 20px;
   float: left
 }
 
 .programmee-area .tab-content .header-tab-content .header-title {
   float: left;
   margin-top: 15px;
-  margin-left: 20px;
 }
 
 .programmee-area .tab-content .header-tab-content .header-title h4 {
@@ -4768,7 +4773,10 @@ footer .copyright {
   .international-organization-list.card-full .card-header .text-right {
     text-align: right!important;
   }
-  .international-organization-list.card-full .card-header .company-logo{
+  .international-organization-list.card-full .card-header .company-logo {
     width: 100%;
+  }
+  .programmee-area .programmee-slider .programmee-tabs .tab-content .tab-pane .upcoming-tab {
+    padding: 28px;
   }
 }
