@@ -3693,8 +3693,13 @@ footer .copyright {
   width: 10% !important;
 }
 
+.w-20 {
+  width: 20%!important;
+  ;
+}
+
 .w-40 {
-  width: 40%;
+  width: 40% !important;
 }
 
 .w-42 {
@@ -3714,7 +3719,12 @@ footer .copyright {
 }
 
 .w-60 {
-  width: 60%;
+  width: 60% !important;
+  ;
+}
+
+.w-80 {
+  width: 80% !important;
 }
 
 .w-90 {
@@ -3872,13 +3882,25 @@ footer .copyright {
   color: #044B89;
 }
 
-.people-management-staff .card img {
+.people-management-staff .row.no-gutters {
+  height: 135px;
+}
+
+.people-management-staff h5 {
+  font-size: 0.9rem;
+}
+
+.people-management-staff .card {
+  height: 100%;
+}
+
+.people-management-staff .card .card-img {
   border-radius: 4px;
 }
 
 .people-management-staff .card-text {
-  line-height: 185%;
-  font-size: 14px;
+  line-height: 155%;
+  font-size: 0.8rem;
 }
 
 .people-management-staff .content-heading {
@@ -3902,6 +3924,10 @@ footer .copyright {
 .modal .modal-body img {
   width: 80%;
   margin-bottom: 20px;
+}
+
+.modal .close img {
+  width: 90%!important;
 }
 
 .modal .modal-body h5 {
@@ -4778,5 +4804,24 @@ footer .copyright {
   }
   .programmee-area .programmee-slider .programmee-tabs .tab-content .tab-pane .upcoming-tab {
     padding: 28px;
+  }
+  .modal-dialog {
+    width: 100%;
+    margin: 1.75rem auto;
+    padding: 20px;
+  }
+  .modal .modal-content {
+    width: 100%;
+    margin: auto;
+  }
+  .modal .modal-body {
+    padding: 12px;
+  }
+  .modal .modal-body img {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .people-management-staff .row.no-gutters {
+    height: 100%;
   }
 }
