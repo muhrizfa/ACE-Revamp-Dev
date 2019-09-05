@@ -3693,6 +3693,10 @@ footer .copyright {
   width: 10% !important;
 }
 
+.w-40 {
+  width: 40%;
+}
+
 .w-42 {
   width: 42% !important;
 }
@@ -3707,6 +3711,10 @@ footer .copyright {
 
 .w-58 {
   width: 58% !important;
+}
+
+.w-60 {
+  width: 60%;
 }
 
 .w-90 {
@@ -4240,53 +4248,6 @@ footer .copyright {
   font-weight: 700;
 }
 
-.international-organization-page .columns .column .pub-sec {
-  border: 1px solid #CCCCCC;
-  box-shadow: 0px 2px 6px rgba(204, 204, 204, 0.4);
-  border-radius: 4px;
-  width: 288px;
-  display: inline-block;
-  padding: 13px 0;
-  vertical-align: top;
-}
-
-.international-organization-page .columns .column .pub-sec strong {
-  font-size: 18px;
-  line-height: 27px;
-  color: #333333;
-  padding: 11px 24px;
-  width: 100%;
-  display: inline-block;
-}
-
-.international-organization-page .columns .column .pub-sec ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.international-organization-page .columns .column .pub-sec ul li {
-  width: 100%;
-  display: inline-block;
-}
-
-.international-organization-page .columns .column .pub-sec ul li a {
-  width: 100%;
-  display: inline-block;
-  font-size: 14px;
-  line-height: 27px;
-  color: #474747;
-  padding: 11px 24px;
-  font-weight: 700;
-}
-
-.international-organization-page .columns .column .pub-sec ul li a:hover {
-  background: rgba(4, 75, 137, 0.08);
-  color: #044B89;
-  text-decoration: none;
-  font-weight: 700;
-}
-
 .international-organization-page .search-area {
   margin-left: -12px;
   margin-right: -12px;
@@ -4391,12 +4352,6 @@ footer .copyright {
   top: 20px;
 }
 
-/* .international-organization-page .columns .column .international-organization-page-list {
-  width: calc(100% - 293px);
-  display: inline-block;
-  padding: 0 0 0 24px;
-} */
-
 .international-organization-page .columns .column .international-organization-page-list .international-organization-page-listt {
   margin: 0 0 40px 0;
 }
@@ -4408,10 +4363,6 @@ footer .copyright {
 
 .international-organization-page .card-full .card-header {
   border-bottom: 0;
-}
-
-.international-organization-page .card-full .card-header .col-md-6 img {
-  width: 95%;
 }
 
 .international-organization-page .card-full .card-footer {
@@ -4811,8 +4762,13 @@ footer .copyright {
   .card-full .card-header .text-right {
     text-align: left!important;
   }
-
-  .introduction-page-list h3, .introduction-page-list h5{
+  .introduction-page-list h3, .introduction-page-list h5 {
     margin-bottom: 20px;
+  }
+  .international-organization-list.card-full .card-header .text-right {
+    text-align: right!important;
+  }
+  .international-organization-list.card-full .card-header .company-logo{
+    width: 100%;
   }
 }
