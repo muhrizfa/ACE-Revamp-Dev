@@ -3713,6 +3713,10 @@ footer .copyright {
   width: 90% !important;
 }
 
+.list-group {
+  box-shadow: 0px 2px 6px rgba(204, 204, 204, 0.4);
+}
+
 .status-input select {
   background: transparent url(../img/ico-arrow-down.svg) no-repeat right 20px center;
   -webkit-appearance: none;
