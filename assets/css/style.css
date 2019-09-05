@@ -3764,7 +3764,6 @@ footer .copyright {
   margin-bottom: 30px;
 }
 
-
 /* people page */
 
 .people-page>.container>h1 {
@@ -4052,7 +4051,7 @@ footer .copyright {
 }
 
 .vacancy-page .search-area .status-input {
-  width: 49.7%;
+  width: 100%;
   display: inline-block;
   position: relative;
   padding-left: 12px;
@@ -4085,7 +4084,7 @@ footer .copyright {
 }
 
 .vacancy-page .search-area .newest-input {
-  width: 49.7%;
+  width: 100%;
   display: inline-block;
   position: relative;
   padding-left: 12px;
@@ -4765,4 +4764,20 @@ footer .copyright {
 
 .publications-page.apaec .columns .column .pub-slider ul li .pub-item .pub-kat-page {
   color: #044B89;
+}
+
+/* mobile */
+
+@media (max-width: 767.98px) {
+  .card-full .card {
+    height: 100%;
+  }
+  .card-full .card-body {
+    overflow-y: unset;
+    padding-bottom: 0;
+    height: 100%;
+  }
+  .card-full .card-header .col-md{
+    text-align: left!important;
+  }
 }
