@@ -105,6 +105,7 @@ $(document).ready(function() {
     if (newWindowWidth < 481) {
       $(".pub-sec").addClass("d-none");
       $(".pub-sec-mobile").removeClass("d-none");
+      $(".container h1").remove();
 
       $('.paginations li:nth-child(4)').replaceWith('<li><a href="#">...</a></li>');
       $('.paginations li:nth-child(5)').remove();
