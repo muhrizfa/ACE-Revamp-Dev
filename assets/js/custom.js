@@ -104,21 +104,31 @@ $(document).ready(function() {
       $(".paginations li:nth-child(4)").replaceWith(
         '<li><a href="#">...</a></li>'
       );
-      $(".paginations li:nth-child(5)").addClass("d-none");
+      $(".paginations li:nth-child(5)").hide();
     } else {
-      $(".paginations li:nth-child(5)").removeClass("d-none");
+      $(".paginations li:nth-child(5)").show();
     }
 
     if (newWindowWidth < 768) {
-      $(".container h1").addClass("d-none");
-      $(".pub-sec").addClass("d-none");
-      $(".pub-sec-mobile").removeClass("d-none");
-      $(".nav.nav-tabs").addClass("d-none");
+      $(".page-list.people-gov-council").show();
+      $(".page-list.vision-mission").show();
+
+      $(".select-menu").change(function() {
+        var selected = $(this).find(":selected");
+        $(".page-list").hide();
+        $("." + selected.val()).show();
+      });
+
+      $(".container h1").hide();
+      $(".pub-sec").hide();
+      $(".pub-sec-mobile").show();
+      $(".nav.nav-tabs").hide();
     } else {
-      $(".container h1").removeClass("d-none");
-      $(".pub-sec").removeClass("d-none");
-      $(".pub-sec-mobile").addClass("d-none");
-      $(".nav.nav-tabs").removeClass("d-none");
+      $(".page-list").show();
+      $(".container h1").show();
+      $(".pub-sec").show();
+      $(".pub-sec-mobile").hide();
+      $(".nav.nav-tabs").show();
     }
   }
 });

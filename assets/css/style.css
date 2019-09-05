@@ -3808,11 +3808,11 @@ footer .copyright {
   margin-bottom: 30px;
 }
 
-.introduction-page .introduction-ace {
+.introduction-page .ace-asean-energy {
   margin-bottom: 100px;
 }
 
-.introduction-page .introduction-ace img {
+.introduction-page .ace-asean-energy img {
   width: 100%;
   margin-bottom: 30px;
 }
@@ -4823,5 +4823,8 @@ footer .copyright {
   }
   .people-management-staff .row.no-gutters {
     height: 100%;
+  }
+  .page-list {
+    display: none;  
   }
 }
