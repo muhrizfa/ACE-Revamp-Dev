@@ -4295,7 +4295,7 @@ footer .copyright {
 }
 
 .international-organization-page .search-area .status-input {
-  width: 49.6%;
+  width: 100%;
   display: inline-block;
   position: relative;
   padding-left: 12px;
@@ -4328,7 +4328,7 @@ footer .copyright {
 }
 
 .international-organization-page .search-area .newest-input {
-  width: 49.6%;
+  width: 100%;
   display: inline-block;
   position: relative;
   padding-left: 12px;
@@ -4360,11 +4360,11 @@ footer .copyright {
   top: 20px;
 }
 
-.international-organization-page .columns .column .international-organization-page-list {
+/* .international-organization-page .columns .column .international-organization-page-list {
   width: calc(100% - 293px);
   display: inline-block;
   padding: 0 0 0 24px;
-}
+} */
 
 .international-organization-page .columns .column .international-organization-page-list .international-organization-page-listt {
   margin: 0 0 40px 0;
