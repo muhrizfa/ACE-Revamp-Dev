@@ -3934,6 +3934,10 @@ html {
   font-weight: bold;
 }
 
+.people-page.hovered .people-management-staff .card-title{
+  color: #044B89;
+}
+
 /* Binding and Tender */
 
 .bidding-tender-desc a {
