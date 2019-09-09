@@ -3556,7 +3556,6 @@ footer .copyright {
 }
 
 .card-full .card-body {
-  overflow-y: auto;
   padding-bottom: 0;
 }
 
@@ -4826,5 +4825,11 @@ footer .copyright {
   }
   .page-list {
     display: none;  
+  }
+}
+
+@media (max-width: 1200px){
+  .card-full .card{
+    height: 698px;
   }
 }
