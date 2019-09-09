@@ -132,7 +132,7 @@ $(document).ready(function() {
     }
   }
 
-  $(".introduction-page .pub-sec ul li").on("click", function() {
+  $(".pub-sec ul li").on("click", function() {
     $(this)
       .parent()
       .find("li.active")
