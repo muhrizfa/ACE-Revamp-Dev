@@ -4853,6 +4853,9 @@ html {
     margin-bottom: 5px;
     font-size: 0.8rem;
   }
+  .bidding-tender-desc p, .page-list {
+    display: none;
+  }
 }
 
 @media (min-width: 991px) {
