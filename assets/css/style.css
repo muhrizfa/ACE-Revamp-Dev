@@ -3510,6 +3510,7 @@ footer .copyright {
 /* RIZKY CODE */
 
 /* Global Code */
+
 html {
   scroll-behavior: smooth;
 }
@@ -3646,7 +3647,7 @@ html {
   font-weight: 700;
 }
 
-.pub-sec .active a{
+.pub-sec .active a {
   background: rgba(4, 75, 137, 0.08);
   color: #044B89 !important;
   text-decoration: none;
@@ -3934,7 +3935,7 @@ html {
   font-weight: bold;
 }
 
-.people-page.hovered .people-management-staff .card-title{
+.people-page.hovered .people-management-staff .card-title {
   color: #044B89;
 }
 
@@ -4835,6 +4836,9 @@ html {
   .card-full .card {
     height: 698px;
   }
+  .vacancy-list.card-full .card {
+    height: 100%;
+  }
   .details .card-full .card {
     height: 100%;
   }
@@ -4845,7 +4849,7 @@ html {
     line-height: 155%;
     font-size: 0.6rem;
   }
-  .people-management-staff .card-title{
+  .people-management-staff .card-title {
     margin-bottom: 5px;
     font-size: 0.8rem;
   }
