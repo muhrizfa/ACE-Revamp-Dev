@@ -4827,9 +4827,9 @@ html {
   .people-management-staff .row.no-gutters {
     height: 100%;
   }
-  .bidding-tender-desc p, .page-list {
+  /* .bidding-tender-desc p, .page-list {
     display: none;
-  }
+  } */
 }
 
 @media (min-width: 767.98px) and (max-width: 1200px) {
@@ -4853,9 +4853,9 @@ html {
     margin-bottom: 5px;
     font-size: 0.8rem;
   }
-  .bidding-tender-desc p, .page-list {
+  /* .bidding-tender-desc p, .page-list {
     display: none;
-  }
+  } */
 }
 
 @media (min-width: 991px) {
